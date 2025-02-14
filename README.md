@@ -1,6 +1,6 @@
 # 1.基础准备
 
-npm i install # 初始化包
+npm i # 初始化包
 
 # 2.目录结构
 
@@ -32,3 +32,11 @@ CREATE TABLE "public"."documents" (
 ALTER TABLE "public"."documents"
   OWNER TO "pgvector";
 ```
+
+# 4.模型工具
+
+向量生成模型 nomic-embed-text:latest  
+文本分割模型 langchain/text_splitter  
+检索模型 llama3.2:1b  
+向量存储 postgreSQL  
+pdf 解析 pdf-parse
