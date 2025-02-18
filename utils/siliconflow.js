@@ -13,7 +13,7 @@ async function chat(messages, model = 'Qwen/QwQ-32B-Preview') {
             stream: false
         }, {
             headers: {
-                "Authorization": 'Bearer sk-lasgmeykhjzdamzxfadmqscxptpeutnhvvvupaoofyemlojx',
+                "Authorization": '',
                 'Content-Type': 'application/json'
             }
         });
