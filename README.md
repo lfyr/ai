@@ -13,6 +13,7 @@ utils----- 工具
 -----langchain.js langchain 基本使用  
 -----ollama.js ollama api 服务  
 -----parser.js parser 文本文档解析  
+-----siliconflow.js 硅基流动 api
 index.js----- 入口文件  
 package.json----- 包管理
 

@@ -1,4 +1,5 @@
 const { storeChunks, searchChunks, generateWithOllama } = require("./service/documents")
+const { chat } = require("./utils/siliconflow")
 async function main() {
 
     // 导入知识库
@@ -14,8 +15,17 @@ async function main() {
     // 调用模型生成结果
     const response = await generateWithOllama(question, context)
     console.info(`response:${response}`);
-}
 
+    // // 硅基流动
+    // const message = [
+    //     { role: "user", content: "Who won the world series in 2020?" },
+    //     { role: "assistant", content: "The Los Angeles Dodgers won the World Series in 2020." },
+    //     { role: "user", content: "Where was it played?" }
+    // ]
+    // const model = "deepseek-ai/DeepSeek-R1"
+    // const content = await chat(message, model)
+    // console.log(content)
+}
 (async () => {
     await main();
 })()
