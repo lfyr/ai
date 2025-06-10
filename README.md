@@ -4,18 +4,26 @@ npm i # 初始化包
 
 # 2.目录结构
 
->database ---- 数据库  
->>pgvector 数据库扩展  
->knowledge 知识库文件  
->service ---- 服务逻辑  
->>document 核心逻辑  
->utils ---- 工具  
->>langchain.js langchain 基本使用  
->>ollama.js ollama api 服务  
->>parser.js parser 文本文档解析  
->>siliconflow.js 硅基流动 api
->ndex.js----- 入口文件  
->ackage.json----- 包管理
+> database ---- 数据库
+>
+> > pgvector 数据库扩展
+
+> knowledge 知识库文件
+
+> service ---- 服务逻辑
+>
+> > document 核心逻辑
+
+> utils ---- 工具
+>
+> > langchain.js langchain 基本使用  
+> > ollama.js ollama api 服务  
+> > parser.js parser 文本文档解析  
+> > siliconflow.js 硅基流动 api
+
+> index.js----- 入口文件
+
+> package.json----- 包管理
 
 # 3.数据表
 
